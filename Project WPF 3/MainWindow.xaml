@@ -31,37 +31,37 @@
 
                 <StackPanel Height="400" Width="228">
                     <!-- Кнопки с иконками и текстом -->
-                    <Button Name="ClientsButton" Click="Button_Click" Style="{StaticResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch">
+                    <Button Name="ClientsButton" Click="Button_Click" Style="{StaticResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch" Height="60">
                         <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon Kind="AccountBox" Width="25" Height="25" />
                             <TextBlock Text="Клиенты" Margin="10,0,0,0" VerticalAlignment="Center" FontFamily="Century Gothic" Foreground="White"/>
                         </StackPanel>
                     </Button>
-                    <Button Name="CarsButton" Click="Button_Click" Style="{StaticResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch">
+                    <Button Name="CarsButton" Click="Button_Click" Style="{StaticResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch" Height="60">
                         <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon Kind="Car" Width="25" Height="25" />
                             <TextBlock Text="Автомобили" Margin="10,0,0,0" VerticalAlignment="Center" FontFamily="Century Gothic" Foreground="White"/>
                         </StackPanel>
                     </Button>
-                    <Button Name="OrdersButton" Click="Button_Click" Style="{StaticResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch">
+                    <Button Name="OrdersButton" Click="Button_Click" Style="{StaticResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch" Height="60">
                         <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon Kind="FileDocument" Width="25" Height="25" />
                             <TextBlock Text="Заказы" Margin="10,0,0,0" VerticalAlignment="Center" FontFamily="Century Gothic" Foreground="White"/>
                         </StackPanel>
                     </Button>
-                    <Button Name="DiscountsButton" Click="Button_Click" Style="{StaticResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch">
+                    <Button Name="DiscountsButton" Click="Button_Click" Style="{StaticResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch" Height="60">
                         <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon Kind="Cash" Width="25" Height="25" />
                             <TextBlock Text="Скидки" Margin="10,0,0,0" VerticalAlignment="Center" FontFamily="Century Gothic" Foreground="White"/>
                         </StackPanel>
                     </Button>
-                    <Button Name="PricesButton" Click="Button_Click" Style="{StaticResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch">
+                    <Button Name="PricesButton" Click="Button_Click" Style="{StaticResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch" Height="60">
                         <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon Kind="CreditCardMultipleOutline" Width="25" Height="25" />
                             <TextBlock Text="Цены/услуги" Margin="10,0,0,0" VerticalAlignment="Center" FontFamily="Century Gothic" Foreground="White"/>
                         </StackPanel>
                     </Button>
-                    <Button Name="AnalyticsButton" Click="Button_Click" Style="{StaticResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch">
+                    <Button Name="AnalyticsButton" Click="Button_Click" Style="{StaticResource MaterialDesignFlatButton}" HorizontalAlignment="Stretch" Height="60">
                         <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon Kind="Poll" Width="25" Height="25" />
                             <TextBlock Text="Аналитика" Margin="10,0,0,0" VerticalAlignment="Center" FontFamily="Century Gothic" Foreground="White"/>
